@@ -1,13 +1,14 @@
-# Proyecto Final Java Spring
+# Proyecto Final Java Spring (23650)
 
 
 ## Collaborators:
 
 1. Abreu Kaira
-2. Cabrera Exequiel
-3. Castagnola Agustin
-4. Maidana Ivan
-5. Morales Daniela
+2. Baca Paunero Julio
+3. Cabrera Exequiel
+4. Castagnola Agustin
+5. Maidana Ivan
+6. Morales Daniela
 
 ## Requeriments:
 hr
@@ -36,3 +37,13 @@ hr
 - $ cd .. _(Para salir hacia "atrás" del directorio actual)._
 - $ cp <"diretorio o archivo que copiar> <"directorio hacia donde copiarlo"> _(Copiar)._
 - $ del <"file_for_detele"> _(Eliminar)._
+
+## Dependencies:
+- Angular 16.2.7
+- Tailwind 3.3.3
+- Spring
+
+## Consideraciones para utilizar Angular:
+- En PowerShell (Administrador)
+  - "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned" --> [ S ]
+  - Dentro de la carpeta "front/Wallet-7" --> "npm i"
