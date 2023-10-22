@@ -28,7 +28,7 @@ hr
 - $ git pull origin main
 - _$ git push -u origin main_ **(ESTO HARÁ MERGE, SOLO HACERLO CUANDO HAYAN CAMBIOS RELEVANTES PARA REALIZAR EL MERGE. Y utilizar "-u" es solo la primera vez).**
 
-3. 
+3. Basics commands linux (Git Bash):
 - $ git add . && git commit -m "commit" _(Cuando hay que añadir por primera vez un archivo)._
 - $ git commit -am "commit" _(Cuando se guardan nuevos cambios de un archivo existente)._
 - $ touch <"file_name.format"> _(Para crear un nuevo archivo.*)._
@@ -45,6 +45,6 @@ hr
 - Java v17
 
 ## Consideraciones para utilizar Angular:
-- En PowerShell (Administrador)
+- En PowerShell (Administrador):
   - "Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned" --> [ S ]
   - Dentro de la carpeta "front/Wallet-7" --> "npm i"
