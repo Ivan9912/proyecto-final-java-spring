@@ -39,9 +39,10 @@ hr
 - $ del <"file_for_detele"> _(Eliminar)._
 
 ## Dependencies:
-- Angular 16.2.7
-- Tailwind 3.3.3
-- Spring
+- Angular v16.2.7
+- Tailwind v3.3.3
+- Spring Boot v3.1.5
+- Java v17
 
 ## Consideraciones para utilizar Angular:
 - En PowerShell (Administrador)
