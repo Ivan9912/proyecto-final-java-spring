@@ -7,8 +7,9 @@
 2. Baca Paunero Julio
 3. Cabrera Exequiel
 4. Castagnola Agustin
-5. Maidana Ivan
-6. Morales Daniela
+5. Herera Abril Carolina
+6. Maidana Ivan
+7. Morales Daniela
 
 ## Requeriments:
 hr
