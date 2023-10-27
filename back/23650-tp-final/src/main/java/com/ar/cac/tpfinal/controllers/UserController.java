@@ -1,5 +1,6 @@
 package com.ar.cac.tpfinal.controllers;
 
+import com.ar.cac.tpfinal.entities.User;
 import com.ar.cac.tpfinal.entities.dtos.UserDto;
 import com.ar.cac.tpfinal.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,41 +24,47 @@ public class UserController {
     @Autowired
     private final UserService service;
 
-    public UserController(UserService service){
+    public UserController(UserService service) {
         this.service = service;
     }
 
     // Obtener una lista de usuarios registrados
+
     @GetMapping(value = "/users")
-    public List<String> getUsers(){
+    public List<User> getUsers() {
         return service.getUsers();
     }
 
     // Obtener la info de un solo usuario
+
     @GetMapping(value = "/users/{id}")
-    public String getUserById(@PathVariable Long id){
-        //return "Cristian";
+    public User getUserById(@PathVariable Long id) {
+        // return "Cristian";
         return service.getUserById(id);
     }
 
     // Crear/Registrar un usuario
+
     @PostMapping(value = "/users")
-    public UserDto createUser(@RequestBody UserDto user){
+    public UserDto createUser(@RequestBody UserDto user) {
         return service.createUser(user);
     }
 
     // Modificar TOTALMENTE un usuario (PUT)
-    public String updateFullUser(){
+    public String updateFullUser() {
         return "";
     }
 
     // Modificar PARCIALMENTE un usuario (PATCH)
-    public String updateParcialUser(){
+
+    public String updateParcialUser() {
         return "";
     }
 
     // Eliminar un usuario
-    public void deleteUser(){
+
+    public void deleteUser() {
 
     }
+
 }

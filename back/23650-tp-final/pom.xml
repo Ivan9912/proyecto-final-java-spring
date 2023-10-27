@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.1.5</version>
+		<version>3.1.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.ar.cac</groupId>
 	<artifactId>23650-tp-final</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>23650-tp-final</name>
-	<description>TP fianl para curso Codo a codo de Java Avanzado Spring</description>
+	<description>TP Final para curso codo a codo Java Avanzado</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -37,6 +37,20 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-data-jpa -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-data-jpa</artifactId>
+			<version>3.1.5</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.1.0</version>
 		</dependency>
 	</dependencies>
 
