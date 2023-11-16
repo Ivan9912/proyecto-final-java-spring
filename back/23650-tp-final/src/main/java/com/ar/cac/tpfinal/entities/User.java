@@ -38,11 +38,11 @@ public class User {
     private Date birthday_date;
 
     // Fecha de creación y modificación (estado) de cada usuarios
-    // TODO: Refactor
+    // T-ODO: Refactor
     private LocalDateTime created_at;
 
     private LocalDateTime updated_at;
 
-    // TODO: refactor
+    // T-ODO: refactor
     //private List<Account> accounts;
 }
