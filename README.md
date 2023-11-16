@@ -1,6 +1,7 @@
 # Proyecto Final Java Spring (23650)
 
 ## Requeriments:
+*Consigna del Trabajo Práctico - "**Spring Banking**"* ("Wallet 7")
 
 ### Descripción del Proyecto:
 - El proyecto consiste en el desarrollo de un simulador de acciones que replicará un sistema de Homebanking denominado "Spring Banking". Los alumnos formarán equipos de 6 desarrolladores para crear los servicios necesarios que permitan el funcionamiento del sistema.
