@@ -62,6 +62,7 @@ Repositorio Git con el código del proyecto (**Se entregará 1 repositorio por e
 6. Morales Daniela
 
 ## Recommends:
+$ git pull origin Produccion && git fetch && git add . && git commit -m "commit" && git push origin < Branch: ej. maidana_alumno> 
 
 1. Git settings globals:
 ```
