@@ -8,6 +8,7 @@ import lombok.Setter;
 
 import java.time.LocalDateTime;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "usuarios")
@@ -43,6 +44,8 @@ public class User {
     private LocalDateTime created_at;
 
     private LocalDateTime updated_at;
+    @OneToMany(mappedBy = "propietario", cascade = CascadeType.ALL, fetch = FetchType.LAZY)
+    private List<Account> accounts;
 
     // T-ODO: refactor
     //private List<Account> accounts;
